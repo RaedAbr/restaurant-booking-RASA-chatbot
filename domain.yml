@@ -1,0 +1,77 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- bot_challenge:
+    use_entities: true
+- booking_date_choice:
+    use_entities: true
+- restaurant_informations:
+    use_entities: true
+- booking_confirm:
+    use_entities: true
+- booking_repeat_order:
+    use_entities: true
+- booking_menu_choice:
+    use_entities: true
+- booking_cancel:
+    use_entities: true
+- booking_check_state:
+    use_entities: true
+- qna:
+    use_entities: true
+- booking_payment_type:
+    use_entities: true
+- booking_payment:
+    use_entities: true
+- booking_payment_invoice:
+    use_entities: true
+- booking_modify:
+    use_entities: true
+- booking_table_choice:
+    use_entities: true
+- booking_request:
+    use_entities: []
+entities:
+- date
+slots:
+  date:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  requested_slot:
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+responses:
+  utter_greet:
+  - text: Hey! I am a bot for restaurent booking, powered by Rasa. How can I help?
+  utter_goodbye:
+  - text: Good bye!
+  utter_iamabot:
+  - text: I am a bot for restaurent booking, powered by Rasa. How can I help?
+  utter_booking_request:
+  - text: Yes, sure! For what day?
+  utter_booking_date_choice:
+  - text: Ok. I will make reservation for you for {date}. Which table do you want to book?
+actions: []
+forms:
+  booking_date_form:
+    required_slots:
+      date:
+      - entity: date
+        type: from_entity
+e2e_actions: []

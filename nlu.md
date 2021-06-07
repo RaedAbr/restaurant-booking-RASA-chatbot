@@ -1,0 +1,179 @@
+## intent:booking.date.choice
+- give me a table for the day after tomorrow at 8pm
+- I need a table for the day after tomorrow at 8pm
+- I want to book a table in two days at 8pm
+- book me a table for the day after tomorrow at 8pm
+- I want to book a table for the day after tomorrow at 8pm
+- day after tomorrow at 8 pm
+- day after tomorrow at 8 p-m
+- day after tomorrow at 8
+- after tomorrow at 8 p.m
+- I would like to reserve a table for the day after tomorrow at 8 p.m.
+- what about 20h, the day after tomorrow, please
+- if possible, tuesday, around eight
+- is it possible to have it on Thursday, around 7-8 pm?
+- in 2 days, ast 8 pm
+- on Wednesday, at eight o'clock please
+- in two days at 8
+- the day after tomorrow, 8pm
+- 8pm, in 2 days
+- after tomorrow, 8pm 
+- in 2 days, 8pm
+- in two days, at 8pm
+## intent:restaurant.informations
+- gimme restaurant info
+- what's the info of the restaurant
+- give me the restaurant info
+- tell me more about the restaurant
+- Can you please give me your restaurant information?
+## intent:booking.confirm
+- I confirm that this reservation is correct
+- I have completed my reservation
+- My reservation is complete
+- confirm my reservation
+- I want to confirm my reservation
+## intent:booking.repeat.order
+- next reservation
+- another reservation
+- a second reservation for the 25th for 4 please
+- ok thats good for today but i need one for tomorrow too
+- i need additional reservation
+- I want a second reservation for monday at 2pm
+- book another reservation for friday at 6pm
+- I need another reservation
+- I want another reservation tomorrow at 4pm
+- I want another reservation
+## intent:booking.menu.choice
+- whats on today's menu?
+- what do you have ?
+- could we have the menu
+- menu?
+- what can I order?
+- menu.
+- what is the menu?
+- the menu please!
+- Give me the menu
+## intent:booking.cancel
+- sorry my reservation are no longer valid
+- please cancel my reservation
+- i can't come on monday sorry
+- i would like to cancel my reservation
+- cancel reservation
+- can you unbook my reservation?
+- can you delete my booking
+- is it possible to remove the reservation?
+- cancel reservervation
+- Can i cancel the reservation please?
+- reservation cancel
+- I'm busy finally, cancel my reservation
+- cancel my reservation
+- let me cancel my reservation
+- I don't want my reservation anymore
+- In the end it won't do it
+- cancel my last reservation please
+- Forget what i said
+- change of plan
+- I would like to cancel my reservation
+- I'd like to cancel my reservation
+- cancel my reservation
+## intent:booking.check.state
+- how are my reservation for monday?
+- reservation satuatus
+- reservation
+- how are my reservation doing?
+- my reservation
+- My reservation please
+- Give me information about my reservation
+- when is my reservation?
+- I want to check my reservation
+- What is my reservation?
+- pending? validated? cancelled? i cant see the status of the reservation
+- status of the reservation?
+- status?
+- is the reservation validated?
+- is it still pending?
+- and the state ?
+- What's the state of this reservation?
+- give me my reservation information
+- show me my reservation
+- what's my reservation?
+## intent:qna
+- Q&A?
+- please help me
+- i have a problem
+- show me the FAQ
+- show QnA please
+- show QnA plu
+- Does your restaurant have a Q&A?
+- Can I look at the Q&A of your restaurant?
+- I would like to look at the Q&A of your restaurant
+- what is the Q&A of the restaurant?
+- I would like to see the Q&A of the restaurant
+- do you have a Q&A 
+- can I see the Q&A
+- Can you show me the Q&A?
+## intent:booking.payment.type
+- i just have cash
+- with an invoice
+- with credicard please
+- invoice
+- cash
+- credit card
+- I would like to pay in invoice
+- I would like to pay in credit card
+- I would like to pay in cash
+- i would like pay with cash 
+- card
+- credit card
+- invoice
+- with a card
+- by cash thanks
+## intent:booking.payment
+- i'm gonna check out
+- i'm checked out
+- i will be going
+- can i please pay
+- i want to pay
+- What is the price of my reservation?
+- let me pay for my reservation
+- Can I pay my reservation?
+- I want to pay my reservation
+- i want to pay
+- I'm done
+- I'd like to pay
+## intent:booking.payment.invoice
+- reservation incoice please
+- i need reservation proof
+- i need a reservation receipt
+- invoice
+- let me see the invoice
+- I would like to have the invoice
+- the bill please
+- give me the bill
+- the invoice please!
+- i'm ready to go
+- the bill
+- the bill please
+- the addition please
+## intent:booking.modify
+- I've got my order wrong, can I change it 
+- Can I change my order
+- I would like to change the menu I chose
+- I would like to choose another table
+- I would like to change the date
+## intent:booking.table.choice
+- i would like table 39
+- please number 39
+- i want table 10
+- table 02
+- 01
+- I'll take the table 11
+- is it possible to have the table 39?
+- Can I have the table next to the restroom?
+- I need the table next to the windows
+- I want the table 10
+- 02 please
+- 11
+- the table 5
+- 02
+- 01

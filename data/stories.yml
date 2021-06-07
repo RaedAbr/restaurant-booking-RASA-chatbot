@@ -1,0 +1,37 @@
+version: "2.0"
+
+stories:
+
+#- story: test path
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - intent: deny
+#  - action: utter_goodbye
+
+- story: booking request story
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: booking_request
+    - action: utter_booking_request
+
+#- story: sad path 1
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - intent: mood_unhappy
+#  - action: utter_cheer_up
+#  - action: utter_did_that_help
+#  - intent: affirm
+#  - action: utter_happy
+#
+#- story: sad path 2
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - intent: mood_unhappy
+#  - action: utter_cheer_up
+#  - action: utter_did_that_help
+#  - intent: deny
+#  - action: utter_goodbye
